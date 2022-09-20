@@ -18,10 +18,8 @@ def main():
                              pixelCountPercentageThreshold = 0.055,
                              maximumDelta = 20,
                              minimumDistance = 200,
-                             minimumOccurence = 0.01,
                              widenBrightnessSearchRange = True,
-                             regardSaturation = True,
-                             medianFilter = False)
+                             regardSaturation = True)
 
     target_image.get_masks()
 
